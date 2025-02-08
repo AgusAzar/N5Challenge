@@ -1,0 +1,20 @@
+@N5Backend_HostAddress = http://localhost:5086
+
+GET {{N5Backend_HostAddress}}/getPermissions/
+Accept: application/json
+
+###
+
+
+POST {{N5Backend_HostAddress}}/requestPermission/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "NombreEmpleado": "Agustin",
+    "ApellidoEmpleado": "Azar",
+    "TipoPermisoId": 1,
+    "FechaPermiso": "2025-02-05T00:00:00"
+    
+}
+###

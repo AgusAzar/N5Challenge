@@ -1,0 +1,66 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.vscode/
+.idea/
+
+# Node.js / React
+node_modules/
+dist/
+build/
+.cache/
+public/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnp/
+.pnp.js
+
+# Editor y OS
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln*
+*.swp
+
+# .NET / C#
+bin/
+obj/
+*.db
+*.sqlite
+*.pdb
+*.exe
+*.dll
+*.so
+*.idb
+*.pidb
+*.mdb
+*.user
+*.lock.json
+project.lock.json
+package-lock.json
+publish/
+appsettings*.json
+secrets.json
+
+# ASP.NET
+wwwroot/
+*.Publish.xml
+*.pubxml
+Properties/launchSettings.json
+
+# Tests
+TestResults/
+coverage/
